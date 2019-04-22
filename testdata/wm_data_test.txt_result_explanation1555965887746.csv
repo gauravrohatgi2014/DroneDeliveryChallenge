@@ -1,0 +1,6 @@
+OrderNumber, Location, OrderTime, timeRemainsForNPS, timeToDeliver, isNPSPossible, travelTime, startTimeOfDelivery, isNPSAchieved
+WM001,N1W1,18:20:20,-1224,2,false,4,16:45:47,-1
+WM003,N1E4,19:50:00,-1134,5,false,10,16:49:47,-1
+WM002,N12W33,19:49:00,-1135,45,false,90,16:59:47,-1
+WM004,N23W27,20:20:00,-1104,50,false,100,18:29:47,-1
+WM005,N23W57,20:41:00,-1083,80,false,160,06:00:00,-1

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.org.wm.drone.DroneDelivery" project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/DroneDelivery.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="224" x="143" y="34"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.org.wm.drone.pojo.DroneData" project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/pojo/DroneData.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1219" y="368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.org.wm.drone.pojo.OrderDetails" project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/pojo/OrderDetails.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1570" y="424"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.org.wm.drone.service.DroneSchedulerService" 
+    project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/service/DroneSchedulerService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="880" y="312"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="com.org.wm.drone.service.DroneService" project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/service/DroneService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="629" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.org.wm.drone.service.impl.DroneDataLoader" project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/service/impl/DroneDataLoader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1246" y="607"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.org.wm.drone.service.impl.DroneSchedulerServiceImpl" 
+    project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/service/impl/DroneSchedulerServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="838" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.org.wm.drone.service.impl.OrderComparator" project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/service/impl/DroneSchedulerServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1223" y="209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.org.wm.drone.service.impl.DroneServiceImpl" project="dronedeliverychallange" 
+    file="/dronedeliverychallange/src/main/java/com/org/wm/drone/service/impl/DroneServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="851" y="696"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="10">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="11" name="droneService"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="14">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="15" name="orderList"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="18">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="20">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="21" name="droneDataLoader"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="24">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="25" name="droneSchedulerService"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
